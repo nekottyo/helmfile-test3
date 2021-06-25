@@ -3,9 +3,10 @@
   "extends": [
     "local>nekottyo/renovate-config"
   ],
-  "enabledManagers": ["helmv3", "helmfile"],
+  "enabledManagers": ["helmv3", "helmfile", "helm-requirements"],
   "aliases": {
       "argo": "https://argoproj.github.io/argo-helm",
       "bitnami": "https://charts.bitnami.com/bitnami/"
-  }
+  },
+  "bumpVersion": "patch"
 }
