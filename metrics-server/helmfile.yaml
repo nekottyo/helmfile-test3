@@ -9,4 +9,4 @@ releases:
   - name: metrics-server
     namespace: kube-system
     chart: bitnami/metrics-server
-    version: 5.3.3
+    version: 5.8.11
